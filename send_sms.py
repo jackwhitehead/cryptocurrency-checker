@@ -1,6 +1,6 @@
 from twilio.rest import Client
 import urllib.request
-import json
+import simplejson
 feather_dict = {}
 bit_dict = {}
 fdata = urllib.request.urlopen("https://api.coinmarketcap.com/v1/ticker/feathercoin/?convert=AUD").read()
